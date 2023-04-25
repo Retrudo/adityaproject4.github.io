@@ -4,9 +4,8 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Contact Page</title>
+		<title>Home Page</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="contact.js"></script>
 	</head>
 	<body>
 		
@@ -63,24 +62,24 @@
 				<div class="w50">
 					<h2>Contact Form</h2>
 					<p>Please fill the details below</p>
-					<form>
+					<form id="contactForm" method="post" action="index.html" onsubmit="validate(event)">
 						<label for="name">Name</label>
 						<input type="text" name="name" id="name">
 						<span id="nameError" class="nameError error">
 							Name is Required</span>
-						<label for="mobile">Mobile No.</label>
-						<input type="text" name="name" id="mobile">
+						<label for="phone_no">Mobile No.</label>
+						<input type="text" name="mobile" id="mobile">
 						<span id="mobileError" class="mobileError error">
 							Mobile Number is Required</span>
 						<label for="email">Email</label>
-						<input type="text" name="name" id="email">
+						<input type="text" name="email" id="email">
 						<span id="emailError" class="emailError error">
 							Email is Required</span>
-						<label for="message">Message</label>
-						<input type="text" name="name" id="message">
+						<label for="comments">Message</label>
+						<input type="text" name="message" id="message">
 						<span id="messageError" class="messageError error">
 							Message is Required</span>
-						<input type="button" id="submit" value="Submit" onclick="saveContact()">
+						<input type="submit" id="submit" value="Submit">
 					</form>
 				</div>
 			</div>
@@ -88,7 +87,8 @@
 		
 		<!-- Contact Section End -->
 		<footer>
-			© Copywrite Reserved Shreeji Chemicals
+			© Copyright Reserved Shreeji Chemicals
 		</footer>
+		<script src="contact.js"></script>
 	</body>
 </html>

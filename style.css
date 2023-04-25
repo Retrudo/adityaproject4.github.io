@@ -224,7 +224,7 @@ body {
   display: block;
   width: 100%;
 }
-.contact-form form input[type=button] {
+.contact-form form input[type=submit] {
   background-color: #245953;
   color: #fff;
   font-size: 20px;
@@ -399,4 +399,9 @@ footer{
   text-align:center;
   padding:20px;
   border-top:2px solid #245953;
+}
+
+.inputError{
+  color : #ff0000;
+  background-color: #fab6b6;
 }
