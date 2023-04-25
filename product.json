@@ -1,0 +1,44 @@
+[
+	{
+		"brand_name" : "Stromfix",
+		"product_name": "Gold Blue",
+		"product_price": "$20",
+		"product_packing": "20Kg",
+		"image": "gold-blue.png"
+	},
+	{
+		"brand_name" : "Stromfix",
+		"product_name": "Gold Green",
+		"product_price": "$24",
+		"product_packing": "20Kg",
+		"image": "gold-green.png"
+	},
+	{
+		"brand_name" : "Stromfix",
+		"product_name": "Gold Grey",
+		"product_price": "$25",
+		"product_packing": "20Kg",
+		"image": "gold-grey.png"
+	},
+	{
+		"brand_name" : "Stromfix",
+		"product_name": "Gold White",
+		"product_price": "$30",
+		"product_packing": "20Kg",
+		"image": "gold-white.png"
+	},
+	{
+		"brand_name" : "Stromfix",
+		"product_name": "Platinum Grey",
+		"product_price": "$25",
+		"product_packing": "20Kg",
+		"image": "platinum-grey.png"
+	},
+	{
+		"brand_name" : "Stromfix",
+		"product_name": "Platinum White",
+		"product_price": "$30",
+		"product_packing": "20Kg",
+		"image": "platinum-white.png"
+	}
+]

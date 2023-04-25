@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="contact.js"></script>
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header class="navbar">
+        <div class="header-wrapper">
+            <h2>Shreeji <span>Chemicals</span></h2>
+            <ul class="header-links" id="header-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="product.html">Products</a></li>
+                 <li><a href="contact.html">Contact us</a></li>
+            </ul>
+           </div>
+      </header>
+        <!-- Header Section End -->
+    
+
+
+         <!-- Contact Section Start -->
+
+         <section class="w100">
+            <div class="contact-section">
+                <div class="top-header">
+                    <h1>Contact Us</h1>
+                    <p>Contact us to know more about how Shreeji Chemicals can help
+                        you build structures with lasting beauty.</p>
+                </div>
+                <div class="bg-overlay"></div>
+               
+            </div>
+            <div class="container form-wrap contact-form">
+                <div class="w50">
+                    <h2>Contact Details</h2>
+                <!-- <p>Please fill the details below</p> -->
+                   <div class="items"><span><b>Address</b></span>
+                   <p> 381, Old common wealth path, Winnipeg, R2R2Z2, Canada </p></div>
+                 <div class="items"> <p> <b>Contact us</b></p>
+                    <p>+1-2049630433</p></div>
+                </div>
+              <div class="w50">
+                
+                <h2>Contact Form</h2>
+                <p>Please fill the details below</p>
+    
+                <form>
+                    
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                    <span id="nameError" class="nameError error"> Name is Required</span>
+                    <label for="mobile">Mobile No.</label>
+                    <input type="text" name="name" id="mobile">
+                    <span id="mobileError" class="mobileError error"> Mobile Number is Required</span>
+                    <label for="email">Email</label>
+                    <input type="text" name="name" id="email">
+                    <span id="emailError" class="emailError error"> Email is Required</span>
+                    <label for="message">Message</label>
+                    <input type="text" name="name" id="message">
+                    <span id="messageError" class="messageError error"> Message is Required</span>
+                    <input type="button" id="submit" value="Submit" onclick="saveContact()">
+                    
+                </form>
+         
+            </div>
+            </div>
+         </section>
+       
+
+               <!-- Contact Section End -->
+             
+</body>
+</html>
