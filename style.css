@@ -393,4 +393,10 @@ body {
 
 .white-background {
   background: #ffffff;
-}/*# sourceMappingURL=style.css.map */
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  border-top:2px solid #245953;
+}
